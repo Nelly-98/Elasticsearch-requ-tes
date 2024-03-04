@@ -1,0 +1,11 @@
+{
+  "size": 0,
+  "aggs": {
+    "age_histogram": {
+      "histogram": {
+        "field": "age",
+        "interval": 20
+      }
+    }
+  }
+}

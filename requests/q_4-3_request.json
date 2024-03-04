@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "class_rating": {
+      "terms": {
+        "field": "Class Name.keyword"
+      },
+      "aggs": {
+        "average_rating": {
+          "avg": {
+            "field": "rating"
+          }
+        }
+      }
+    }
+  }
+}

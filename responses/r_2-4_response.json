@@ -1,0 +1,207 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "eval",
+        "_id": "9th3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "767",
+          "Age": "33",
+          "Title": "",
+          "Review Text": "Absolutely wonderful - silky and sexy and comfortable",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "Initmates",
+          "Department Name": "Intimate",
+          "Class Name": "Intimates"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "99h3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "34",
+          "Title": "",
+          "Review Text": "Love this dress!  it's sooo pretty.  i happened to find it in a store, and i'm glad i did bc i never would have ordered it online bc it's petite.  i bought a petite and am 5'8\".  i love the length on me- hits just a little below the knee.  would definitely be a true midi on someone who is truly petite.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "4",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "-Nh3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "60",
+          "Title": "Some major design flaws",
+          "Review Text": "I had such high hopes for this dress and really wanted it to work for me. i initially ordered the petite small (my usual size) but i found this to be outrageously small. so small in fact that i could not zip it up! i reordered it in petite medium, which was just ok. overall, the top half was comfortable and fit nicely, but the bottom half had a very tight under layer and several somewhat cheap (net) over layers. imo, a major design flaw was the net over layer sewn directly into the zipper - it c",
+          "Rating": "3",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "-dh3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1049",
+          "Age": "50",
+          "Title": "My favorite buy!",
+          "Review Text": "I love, love, love this jumpsuit. it's fun, flirty, and fabulous! every time i wear it, i get nothing but great compliments!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "-th3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "847",
+          "Age": "47",
+          "Title": "Flattering shirt",
+          "Review Text": "This shirt is very flattering to all due to the adjustable front tie. it is the perfect length to wear with leggings and it is sleeveless so it pairs well with any cardigan. love this shirt!!!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "6",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "-9h3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "49",
+          "Title": "Not for the very petite",
+          "Review Text": "I love tracy reese dresses, but this one is not for the very petite. i am just under 5 feet tall and usually wear a 0p in this brand. this dress was very pretty out of the package but its a lot of dress. the skirt is long and very full so it overwhelmed my small frame. not a stranger to alterations, shortening and narrowing the skirt would take away from the embellishment of the garment. i love the color and the idea of the style but it just did not work on me. i returned this dress.",
+          "Rating": "2",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "4",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "_Nh3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "858",
+          "Age": "39",
+          "Title": "Cagrcoal shimmer fun",
+          "Review Text": "I aded this in my basket at hte last mintue to see what it would look like in person. (store pick up). i went with teh darkler color only because i am so pale :-) hte color is really gorgeous, and turns out it mathced everythiing i was trying on with it prefectly. it is a little baggy on me and hte xs is hte msallet size (bummer, no petite). i decided to jkeep it though, because as i said, it matvehd everything. my ejans, pants, and the 3 skirts i waas trying on (of which i ]kept all ) oops.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "General Petite",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "_dh3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "858",
+          "Age": "39",
+          "Title": "Shimmer, surprisingly goes with lots",
+          "Review Text": "I ordered this in carbon for store pick up, and had a ton of stuff (as always) to try on and used this top to pair (skirts and pants). everything went with it. the color is really nice charcoal with shimmer, and went well with pencil skirts, flare pants, etc. my only compaint is it is a bit big, sleeves are long and it doesn't go in petite. also a bit loose for me, but no xxs... so i kept it and wil ldecide later since the light color is already sold out in hte smallest size...",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "4",
+          "Division Name": "General Petite",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "_th3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "24",
+          "Title": "Flattering",
+          "Review Text": "I love this dress. i usually get an xs but it runs a little snug in bust so i ordered up a size. very flattering and feminine with the usual retailer flair for style.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "_9h3C44Bwp1kVUvE1Xny",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "34",
+          "Title": "Such a fun dress!",
+          "Review Text": "I'm 5\"5' and 125 lbs. i ordered the s petite to make sure the length wasn't too long. i typically wear an xs regular in retailer dresses. if you're less busty (34b cup or smaller), a s petite will fit you perfectly (snug, but not tight). i love that i could dress it up for a party, or down for work. i love that the tulle is longer then the fabric underneath.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      }
+    ]
+  }
+}

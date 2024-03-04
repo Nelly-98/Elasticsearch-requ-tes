@@ -1,0 +1,96 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "class_rating": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1756,
+      "buckets": [
+        {
+          "key": "Dresses",
+          "doc_count": 5949,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Knits",
+          "doc_count": 4672,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Blouses",
+          "doc_count": 3015,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Sweaters",
+          "doc_count": 1382,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Pants",
+          "doc_count": 1323,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Jeans",
+          "doc_count": 1088,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Fine gauge",
+          "doc_count": 1019,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Skirts",
+          "doc_count": 904,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 695,
+          "average_rating": {
+            "value": null
+          }
+        },
+        {
+          "key": "Lounge",
+          "doc_count": 654,
+          "average_rating": {
+            "value": null
+          }
+        }
+      ]
+    }
+  }
+}

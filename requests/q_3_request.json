@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "missing_fields": {
+      "missing": {
+        "field": "Department Name.keyword"
+      }
+    }
+  }
+}

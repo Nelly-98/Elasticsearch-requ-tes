@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "unique_department": {
+      "terms": {
+        "field": "Department Name.keyword"
+      }
+    }
+  }
+}

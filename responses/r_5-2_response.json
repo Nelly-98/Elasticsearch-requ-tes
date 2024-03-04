@@ -1,0 +1,66 @@
+{
+  "took": 6,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2286,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "popular_terms": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 873,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 36
+        },
+        {
+          "key": "3 tags - one quite huge (about 2'' by 3'') - very itchy. so i cut out the tags and they are sewn with some kind of hard poky plasticy thread - now even more itchy! i will have to wear these inside out.",
+          "doc_count": 1
+        },
+        {
+          "key": "A $200 piece of polyester with no shape and looks good only on the model. avoid ! mine went back the same day it came in the mail...",
+          "doc_count": 1
+        },
+        {
+          "key": "A beautiful sweater and very flattering on.  the stock photos do not do it justice.  but, i had to give it only 2 stars because it was so itchy that i couldn't even keep it on in the dressing room for more than a minute.",
+          "doc_count": 1
+        },
+        {
+          "key": "A serious joke. i struggled with the buttons for a good 10 minutes and gave up after the 3rd button. i'm not sure what they were thinking.",
+          "doc_count": 1
+        },
+        {
+          "key": "A truly unwearable slip: scratchy fabric, bunchy skirt, teeny bodice. it feels like you are wearing wrapping paper--the foil kind.",
+          "doc_count": 1
+        },
+        {
+          "key": "Absolutely beautiful top, worn once...hand washed and that's all she wrote..ruined!! the black trim bled all over the top!! i tried everything you could imagine to get this back to normal! do not recommend!! :(",
+          "doc_count": 1
+        },
+        {
+          "key": "After reading the other reviewers i decided to try this out. unfortunately, the material does not fall nicely on me and the belt hits in an unflattering spot. i like the idea but it's just not a flattering cut or material. going back!",
+          "doc_count": 1
+        },
+        {
+          "key": "After washing this top pilled terribly. it is beautiful, but only for one use.",
+          "doc_count": 1
+        },
+        {
+          "key": "Agree with other poster. this shirt runs very big. i'm all for a flowy, shirt that hides my belly but this is just a tent. i'll be retuning it.",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

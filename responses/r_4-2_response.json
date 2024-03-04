@@ -1,0 +1,27 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "notes_stats": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "avg": null,
+      "sum": 0.0
+    }
+  }
+}

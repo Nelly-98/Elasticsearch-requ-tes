@@ -1,0 +1,20 @@
+{
+  "size": 0,
+  "aggs": {
+    "low_rated": {
+      "terms": {
+        "field": "Product ID.keyword",
+        "order": {
+          "average_rating": "asc"
+        }
+      },
+      "aggs": {
+        "average_rating": {
+          "avg": {
+            "field": "rating"
+          }
+        }
+      }
+    }
+  }
+}

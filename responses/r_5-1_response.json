@@ -1,0 +1,66 @@
+{
+  "took": 29,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "popular_terms": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 6994,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 733
+        },
+        {
+          "key": "Perfect fit and i've gotten so many compliments. i buy all my suits from here now!",
+          "doc_count": 3
+        },
+        {
+          "key": "Love, love these jeans. being short they come right to my ankle. super soft and don?t require any hemming. i ordered my typical jean size of 26 and they fit like a glove. would love to have these in black and grey.",
+          "doc_count": 2
+        },
+        {
+          "key": "The sweater and skirt are so pretty! they're really soft and have such an easy, comfortable look together. really love this gorgeous outfit.\n\ni am borderline small/medium and kept the size small after trying both on.",
+          "doc_count": 2
+        },
+        {
+          "key": "$20 for super comfy, warm leggings. bought two pairs for myself and another pair for my mother. let's be honest, i'll probably be buying another pair.",
+          "doc_count": 1
+        },
+        {
+          "key": "- this really is lovely. the overall design from the arms, front, and back makes this poncho unique. it's not too thick, either, making it a nice everyday sort of thing. however, it just didn't work for me. even though i'm 5'9\", ponchos have a tendency to",
+          "doc_count": 1
+        },
+        {
+          "key": "-i normally don't go for these tops because with my hourglass frame and wider hips, it only makes me look wider. however, like others, i was drawn to the fabric and feel.the bottom half really is lovely and looks expensive, and the top half is stretchy an",
+          "doc_count": 1
+        },
+        {
+          "key": "-like others, i agree that this is a staple that will pair with many, many outfits. it is really well-constructed, classic, comfortable, and a wonderful length for us taller gals. as you can see from my stats, i'm rather tall at 5'9\", so it's hard to find",
+          "doc_count": 1
+        },
+        {
+          "key": "-this was actually at my local retailer store. it reminded me of another online exclusive that was a dress and had the same flower shapes but the color was a soft pink; this is exactly like that.\n_____________\npros:\n- it is so lovely with the pleated fron",
+          "doc_count": 1
+        },
+        {
+          "key": ".... it sheds on my cloths something fierce! not much i can do as i don't want to return it because i love it so. i love the longer panel in the back and the side slits. nice weight and feel, i just wish it didn't shed so much!",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

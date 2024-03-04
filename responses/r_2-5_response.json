@@ -1,0 +1,118 @@
+{
+  "took": 35,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "by_division": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "General",
+          "doc_count": 13340,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 6603
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 3582
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 2436
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 626
+              },
+              {
+                "key": "Trend",
+                "doc_count": 93
+              }
+            ]
+          }
+        },
+        {
+          "key": "General Petite",
+          "doc_count": 7648,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 3485
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 2367
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 1190
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 373
+              },
+              {
+                "key": "Intimate",
+                "doc_count": 210
+              },
+              {
+                "key": "Trend",
+                "doc_count": 23
+              }
+            ]
+          }
+        },
+        {
+          "key": "Initmates",
+          "doc_count": 1458,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Intimate",
+                "doc_count": 1458
+              }
+            ]
+          }
+        },
+        {
+          "key": "",
+          "doc_count": 11,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "",
+                "doc_count": 11
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

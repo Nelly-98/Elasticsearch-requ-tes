@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "by_division": {
+      "terms": {
+        "field": "Division Name.keyword"
+      },
+      "aggs": {
+        "by_department": {
+          "terms": {
+            "field": "Department Name.keyword"
+          }
+        }
+      }
+    }
+  }
+}
